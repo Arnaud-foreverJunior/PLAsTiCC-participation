@@ -1,0 +1,3 @@
+This work was created to work with the data provided by the PLAsTiCC competition hosted by Kaggle on 2018, more info can be found on https://www.kaggle.com/c/PLAsTiCC-2018 aswell as the data used for this work.
+
+There are 3 files: "Preparacion de datos" work with the data and create some auxiliary functions that are used on the other files, it must be run previously to the others files. "Preds_LGBM" and "Preds_NN" make predictions with LGBM and Neural Network respectively, using an enssemble of 5 models, each one trained with a 4/5 part of the data.
